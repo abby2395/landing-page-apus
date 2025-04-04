@@ -1,0 +1,51 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+*.mo
+
+# Django migrations
+*/migrations/
+
+# Media and static files (if generated)
+media/
+staticfiles/
+
+# Local settings
+*.env
+.env
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store/
+
+# Build/dist
+build/
+dist/
+*.egg-info/
