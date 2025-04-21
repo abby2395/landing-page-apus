@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Contact
 
 # Create your views here.
 def index(request):
@@ -11,4 +12,8 @@ def services(request):
     return render(request, 'portfolio.html', {})
 
 def contact(request):
-    return render(request, 'contact.html', {})
+    contact = Contact.objects.all()
+    return render(request, 'contact.html', {contact})
+
+def survey(request):
+    return render(request, 'survey.html', {})
